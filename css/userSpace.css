@@ -1,0 +1,41 @@
+p { padding:0;margin:0;font-size:14px; }
+#main-myspace{width:100%;text-align:left; padding:5px 0 5px 0; border:1px #FFF solid; float:left; background-color:#fcfcfc;}
+#userInfo-detail{width:530px; float:left; position:relative;}
+	#userInfo-detail span{font-size:12px;}
+#userInfo-image{width:210px; background:#fff;padding:5px;float:left; position:relative; text-align:center;border:1px solid #ccc;}
+#edit-userinfo,#return-friendList{ text-decoration:none;float:right; margin-right:15px;margin-top:-5px; font-weight:bold;font-size:16px;font-family:Bradley Hand ITC,Kristen ITC,sans-serif;}
+.userInfoItem { font-size:16px;color:#666;padding:20px 0 0 20px;width:500px;line-height:25px; }
+.aInfoItem { float:left;font-weight:bold;width:180px;text-align:right; }
+
+#myspace-mainlink{background:#fff; float:left; position:relative; width:170px;padding:10px;padding-right:0;padding-left:5px; text-align:right; }
+.link-item{ font-family:Bradley Hand ITC,Kristen ITC,sans-serif;font-weight:bold;width:100%; height:30px; border-bottom:1px #ccc solid; padding:10px 0 0 5px; text-align:left; font-size:14px;}
+.link-item li a:link{ margin-left:5px;  text-decoration:none; color:#b7b7b7;}
+.link-item a:hover{  color:#88bd1f;text-decoration:none; }
+.link-item:hover { background:#f9f9f9; } 
+.link-item a:visited{ color:#b7b7b7;}
+.link-item li a:active{ color:#88bd1f;}
+.linkHover{ color:#88bd1f;}
+.link-item-active{ background:#f2f2f2;font-family:Bradley Hand ITC,Kristen ITC,sans-serif;font-weight:bold;width:100%; height:30px; border-bottom:1px #ccc solid; padding:10px 0 0 5px; text-align:left; font-size:14px;}
+.link-item-active li a:link{ margin-left:5px;  text-decoration:none; color:orange;}
+.link-item-active a:hover{  color:orange;text-decoration:none;}
+.link-item-active a:visited{ color:orange;}
+.link-item-active li a:active{ color:orange;}
+
+#myspace-mainlink img{ margin-bottom:-5px; margin-right:5px; }
+
+.friendItem { overflow:hidden;width:360px;margin-right:5px;padding:5px;float:left;border:1px solid #ccc;margin-bottom:5px;height:120px; }
+.friendItem:hover  { background:#ccc;cursor:pointer; }
+	.friendPhoto { width:60px;padding:3px;float:left;border:1px solid #ccc;background:#fcfcfc; }
+	.friendInfo { float:left;width:285px;margin-left:5px;color:#666; }
+		.friendName { font-size:16px;font-weight:bold;margin-top:5px;; }
+		.friendEmail,.friendWebpage{ font-size:14px;color:#888;height:20px; }
+		.friendIntroduce { font-size:14px;margin-top:5px; }
+		
+#userSpacePhotoDiv { width:160px;padding:5px;border:1px solid #ccc;background:white;float:left; }
+	.addFriend { display:block;margin-left:40px;margin-top:5px; }
+#someUserInfo { width:580px;height:100px;float:left;margin-left:5px;font-size:16px;color:#666;line-height:25px; }
+	#userFocusBar { width:100px;height:100px;float:left;border:1px solid #ccc;margin-left:20px; }
+	#userSpaceActionContainer { margin-left:90px;float:left; }
+		#moreActions  { text-decoration:none; }
+		#moreActions:hover  { text-decoration:none; }
+		

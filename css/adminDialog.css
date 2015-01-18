@@ -1,0 +1,7 @@
+.adminDialog { font-size:14px;color:rgb(0,72,145);font-weight:bold; }
+	div.dialogItem { width:100px;float:left;text-align:right;margin-top:5px; }
+	div.dialogItemValue { width:300px;float:left;margin-top:5px; }
+		.adminDialogText { width:298px;height:20px;border:1px solid rgb(182,209,220);top:5px; }
+		.adminDialogTextArea { width:294px;height:140px;border:1px solid rgb(182,209,220);  }
+	.adminDialogButton { display:block;width:100px;height:30px;background:rgb(182,209,220);position:relative;left:0;top:5px;text-align:center;line-height:30px;color:rgb(0,72,145);font-weight:bold;font-size:16px;float:left; }
+	.adminDialogButton:hover { background:rgb(0,72,145);color:#fff; }

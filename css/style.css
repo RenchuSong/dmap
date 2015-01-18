@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,center,dl,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {background: transparent;border: 0;font-style: inherit;font-weight: inherit;margin: 0;padding: 0;outline: 0;vertical-align: baseline;} table {border-collapse: collapse;border-spacing: 0;}
+.clear { clear: both; height: 0; }
+div { word-wrap:break-word; }
+textarea { resize: none; }
+
+body { font:normal 12px/1.8em Arial, Helvetica, sans-serif; color:black;background: #f2f2f2; line-height:160%; }
+a{ text-decoration:none;}
+a:link{ text-decoration:none; color:#189de1; }
+a:visited{ text-decoration:none; color:#189de1; }
+a:hover{ text-decoration:underline; color:#189de1;}
+a:active{ text-decoration:none;}
+#acourse{ padding:10px 0 5px 0;}
+#acourse a{ font-weight:bold;}
+#top-nav{ background:url(../images/top_nav_bg.PNG) repeat-x; width:100%; height:56px; text-align:center; position:relative; }
+#topmain{width:980px; margin:0 auto;}
+/* top menu */
+#top-menu{width:620px; height:50px; position:relative; float:left;}
+#topmenu{ list-style:none; margin-top:10px;}
+#topmenu li{ float:left;}
+#topmenu li a{ text-decoration:none; font-size:20px;font-family:Bradley Hand ITC,Kristen ITC,sans-serif; color:#AE2300; display:block; width:120px; padding-top:7px; height:26px; }
+#topmenu li a:link{ text-decoration:none;}
+#topmenu li a:visited{ text-decoration:none;}
+#topmenu li a:hover{ text-decoration:none; background-image:url(../images/top_nav_btn.png);font-weight:bold;color:yellow; }
+#topmenu li a:active{ text-decoration:none;}
+.LinkOver{text-decoration:none; background-image:url(../images/top_nav_btn.png);font-weight:bold;color:yellow; }
+
+#userInfo{width:auto; position:relative; float:left; }
+#userImage{position:relative; float:left; width:40px; height:50px;}
+#userName{position:relative; float:left; width:auto; height:30px; text-align:left; padding:15px 0 0 5px;font-size:16px;font-family:Bradley Hand ITC,Kristen ITC,sans-serif;color:#FFFF99;font-weight:bold; }
+/*网页中间主要部分*/
+.mainwrapper{ width:960px; text-align:center;  margin:0 auto; background-color:#fcfcfc;}
+#mainleft{width:155px;  margin:0 5px 0 0;float:left;overflow:hidden; }
+#mainright{width:800px;height:500px; float:left;}
+
+#main-search{ width:130px;text-align:left; padding:10px 15px 10px 15px; line-height:200%; background-color:#fcfcfc;}
+#main-search label{ font-family:Bradley Hand ITC,Kristen ITC,sans-serif;font-size:16px;font-weight:bold; color:#189de1; word-spacing:.2em;}
+h2{ font-size:20px;font-weight:bold;font-family:Bradley Hand ITC,Arial, Helvetica, sans-serif; color:#189de1; text-align:left; padding-top:10px; border-bottom:1px #CCC solid;}
+#login{ color:black; margin-top:-20px;}
+
+#register{color:black; line-height:160%; padding:0 10px 10px 10px; }
+#registerDone{margin-top:-15px; line-height:160%;}
+
+<!--google map css-->
+.infowindow{text-align:left;}
+#destinationinfo,#buildingInside  { text-align:left; padding:0 15px 20px 15px; height:auto; margin-top:5px; background-color:#fcfcfc;display:none; }
+#buildingInside { margin-top:0;display:block;}
+#main-news{text-align:left; padding:0 15px 20px 15px; height:auto; margin-top:5px; background-color:#fcfcfc;}
+#main-operate{ text-align:left; margin-top:5px; padding:10px 0 10px 10px; background-color:#fcfcfc;}
+.news-detail{ height:360px; overflow:auto;}
+<!--register css-->
+.right{ color:black;}
+.wrong{ color:red;}
+#footer { text-align:center;font-size:20px;font-weight:bold;margin-top:5px;margin-bottom:10px;color:#189DE1;font-family:Bradley Hand ITC,Kristen ITC,sans-serif; }
+.actionAnchor { display:block;width:100%;height:28px;font-size:16px;font-family:Bradley Hand ITC,Kristen ITC,sans-serif;font-weight:bold; }
+.actionAnchor:hover { text-decoration:none; }
+.linePixel { position:absolute;background-repeat:no-repeat;z-index:99; }

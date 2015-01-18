@@ -1,0 +1,55 @@
+body { background:url("../images/oaBackground.png");background-repeat:repeat-x; }
+a { text-decoration:none;cursor:pointer; }
+.clear { clear: both; height: 0; }
+div { word-wrap:break-word; }
+#maskFrame { width:1500px;height:1000px;background-color:#666;position:fixed;*position:absolute;top:0;left:0;z-index:999;display:none; }	
+#addBuildingData {position:fixed;*position:absolute;width:420px;height:250px;z-index:1999;left:30%;top:20%;background:white;padding:30px;display:none; }
+#editPlaceData {position:fixed;*position:absolute;width:420px;height:350px;z-index:1999;left:30%;top:20%;background:white;padding:30px;display:none; }
+#showPlaceActionData {position:fixed;*position:absolute;width:600px;height:350px;z-index:1999;left:30%;top:20%;background:white;padding:30px;display:none; }
+	.actionItem { width:560px;height:auto;padding:10px; }
+	.deleteAction { display:block;width:60px;height:25px;background:rgb(182,209,220);position:relative;left:500px;top:5px;text-align:center;line-height:25px;color:rgb(0,72,145); }
+	.deleteAction:hover { display:block;width:60px;height:25px;background:rgb(0,72,145);position:relative;left:500px;top:5px;text-align:center;line-height:25px;color:white; }
+
+#addNewsData {position:fixed;*position:absolute;width:420px;height:220px;z-index:1999;left:30%;top:20%;background:white;padding:30px;display:none; }
+
+#mainFrame { width:960px;height:580px;margin:0 auto;background:white;border:1px solid rgb(0,72,145); }
+	#naviFrame { width:960px;height:60px; }
+		.naviItem { width:120px;height:60px;float:left;}
+			.naviButton { display:block;width:100px;height:40px;background:#fff;position:relative;left:20px;top:10px;text-align:center;line-height:40px;color:rgb(0,72,145);font-weight:bold;font-size:16px; }
+			.naviButton:hover { background:rgb(0,72,145);color:#fff; }
+			.activeNaviButtom  { display:block;width:100px;height:40px;background:rgb(0,72,145);position:relative;left:20px;top:10px;text-align:center;line-height:40px;color:#fff;font-weight:bold;font-size:16px; }
+	#functionFrame { width:120px;height:500px;position:relative;left:0;float:left;margin-left:20px; }
+		a.adminOptionActiveButton { display:block;width:100px;height:40px;background:url("../images/adminOptionActiveButton.jpg");position:relative;left:0;top:0;text-align:center;line-height:40px;color:#666;font-weight:bold;font-size:14px; }
+		a.adminOptionButton { display:block;width:100px;height:40px;background:url("../images/adminOptionButton.jpg");position:relative;left:0;top:0;text-align:center;line-height:40px;color:#666;font-size:14px; }
+		#optionFrame { width:100px;height:242px;position:relative;left:0;overflow:hidden;margin-top:20px; }
+			#optionFramePage { width:700px;height:242px;position:relative;left:0;top:0; }
+				.eachOptionPage { width:100px;height:242px;float:left;z-index:9;font-size:12px;color:rgb(0,72,145);line-height:20px; }
+					input.nodeId { width:44px;height:15px;border:0;background:white;font-size:12px; }
+					input.nodeCoordinate { width:28px;height:15px;border:0;background:white;font-size:12px; }
+	#operateFrame { width:800px;height:500px;overflow:hidden;position:relative;left:0;top:0;border:1px solid rgb(0,72,145); }
+		#operateMapData { width:1800px;height:1400px;position:absolute;left:-600px;top:-500px;background:url("../images/HandanCampus.jpg"); }
+			.nodeItem { cursor:pointer;position:absolute;width:5px;height:5px;background:rgb(255,0,147);border-top:2px solid yellow;border-left:2px solid yellow;border-right:2px solid black;border-bottom:2px solid black;z-index:199; }
+			.nodeItem:hover { background:yellow;border:2px solid yellow; }
+			.linePixel { position:absolute;background-repeat:no-repeat;z-index:99; }
+			.buildingItem { cursor:pointer;position:absolute;width:30px;height:20px;background:url("../images/buildingItem.png");z-index:299; }
+			.buildingItem:hover { border:2px solid yellow; }
+		#operateNewsData { cursor:move;width:800px;height:auto;position:absolute;left:0;top:0; }
+			.newsItem  { overflow:hidden;width:380px;height:180px;float:left;overflow:hidden;padding:10px;color:rgb(0,72,145);background:url("../images/newsBackground.png"); }
+				.newsItem h3 { height:20px;margin:0;margin-left:10px; }
+				.newsItem p { height:20px;font-size:12px;margin:0;margin-left:10px; }
+				.newsItem div { overflow:hidden;height:100px;margin-left:10px;font-size:14px; }
+				.newsItem a { width:60px;height:25px;font-size:12px;line-height:25px; }
+		#operateUserData { cursor:move;width:800px;height:auto;position:absolute;left:0;top:0; }
+			.userItem  { overflow:hidden;width:380px;height:180px;float:left;overflow:hidden;padding:10px;color:rgb(0,72,145);background:url("../images/userBackground.png"); }
+				.userItem h3 { height:20px;margin:0;margin-left:10px; }
+				.userItem p { height:20px;font-size:12px;margin:0;margin-left:10px; }
+				.userItem div { overflow:hidden;height:65px;margin-left:10px;font-size:14px; }
+				.userItem a { width:50px;height:20px;font-size:12px;line-height:20px; }
+		#selectPanel { width:100%;height:65px;position:absolute;left:0;top:0;background:rgb(182,209,220);z-index:399; }
+			.placeAdminNavi { height:30px;width:200px;float:left;padding-top:10px;padding-left:20px; }
+			#operateFrame select { width:150px;height:25px; }
+		#uploadFloorImage { height:30px;width:790px;float:left;font-size:12px;padding-left:10px; }
+		#operatePlaceData { height:500px;width:800px;background-repeat:no-repeat;float:left; }
+			.placeItem { cursor:pointer;position:absolute;width:30px;height:20px;background:url("../images/placeItem.png");z-index:299; }
+			.placeItem:hover { border:2px solid yellow; }			
+		#upload,#uploadPlaceImage,#uploadPlaceGame { font-weight:bold;text-align:center;  background:rgb(0,72,145);color:white;  border:1px solid #ccc;  width:50px;height:20px;font-size:12px;line-height:20px;cursor:pointer; float:left; }  

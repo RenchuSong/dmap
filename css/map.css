@@ -1,0 +1,27 @@
+#operateFrame { width:800px;height:500px;overflow:hidden;position:relative;left:0;top:0;border:1px solid rgb(0,72,145); }
+	#operateMapData { cursor:move;width:1800px;height:1400px;position:absolute;left:-600px;top:-500px;z-index:5;background:url("../images/transparent.png"); }
+	#mapImage { position:absolute;left:-600px;top:-500px;z-index:-1;}
+	#scaleChange { width:40px;height:auto;position:absolute;left:10px;top:15px;z-index:1000; }
+		#mapZoomIn { width:20px;height:18px;background:url("../images/mapZoomIn.png"); }
+		#mapZoomOut { width:20px;height:18px;background:url("../images/mapZoomOut.png"); }
+		#mapZoom { width:40px;height:55px;margin-top:5px; }
+		.mapControlItem { margin:5px 0 0 10px; }
+		.mapMove { width:20px;height:20px;position:absolute; }
+	.buildingItem,.buildingItem2 { cursor:pointer;position:absolute;width:60px;height:30px;background:url("../images/buildingItem.png");z-index:299;background-position:15px 5px;background-repeat:no-repeat; }
+	.buildingItem2 { z-index:290; }
+	#buildingInfo { text-align:left;width:200px;padding:10px;border:1px solid #999;background:white;position:absolute;left:0;top:0;z-index:3000; }
+		#buildingInfoClose { cursor:pointer;width:20px;height:20px;position:absolute;left:210px;top:-10px;background:url("../images/closeLittle.png");background-position:0 0; }
+		#buildingInfoClose:hover { background-position:-20px 0;}
+		#buildingImageLogoInInfo { width:30%;float:left; }
+		#buildingInfoContainer { width:70%;float:left; }
+	.placeItem { cursor:pointer;position:absolute;width:50px;height:50px;background:url("../images/placeItem.png");z-index:299;background-position:10px 15px;background-repeat:no-repeat; }	
+	.placeSelected { cursor:pointer;position:absolute;width:50px;height:50px;background:url("../images/activePlace.png");z-index:299;background-position:1px 0;background-repeat:no-repeat; }	
+		
+.placeInfoItem { margin-top:15px;width:20%;height:auto;float:left;font-size:14px;color:#333;font-weight:bold;text-align:right; }
+.placeInfoItemContent { margin-top:15px;width:450px;height:auto;float:left;font-size:14px;color:#333; }
+.showActionItem { width:448px;height:auto;margin-bottom:5px;background:#f6f6f6;border:1px solid #ddd;font-size:12px; }
+.showCommentItem,.showQuestionItem,.showTopicItem { width:575px;height:auto;margin-bottom:5px;background:#f6f6f6;border:1px solid #ddd;font-size:12px; }
+	.showAnswerItem { width:510px;height:auto;margin:5px;font-size:12px;background:#fbfbfb	; }
+	
+.linkUserSpace { text-decoration:none; }
+.linkUserSpace:hover { text-decoration:none; }
